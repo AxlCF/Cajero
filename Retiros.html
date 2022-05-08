@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://img.freepik.com/vector-gratis/atm-cajero-automatico_160167-1.jpg">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Cajero automatico</title>
+</head>
+
+<body>
+
+    <body class="container">
+
+    <div class="c3"
+
+    <center>
+        <h4 class ="text2">&nbsp&nbsp&nbsp&nbsp&nbspRetiro </h4>
+    </center>
+    <img class="img0" src="img/Trabajo del cajero.png">
+    <button class="button8" onclick="alerta8()">S/.50</button> </div>
+    <button class="button9" onclick="alerta9()">S/.100</button> </div>
+    <button class="button10" onclick="alerta10()">S/.200</button> </div>
+    <button class="button11" onclick="alerta11()">S/.500</button> </div>
+    <button class="button12" onclick="alerta12()">S/.1000</button> </div>
+    <button class="button13" onclick="alerta13()">S/.5000</button> </div>
+    
+
+    <form action="MENU.html" method="get ">
+    <button class=" button14 ">Regresar</button>
+    </form>
+
+
+
+
+    <script>
+        function alerta8(){ 
+            alert("Usted a realizado un retiro de S/.50 con Exito");
+        }
+        function alerta9(){
+            alert("Usted a realizado un retiro de S/.100 con Exito");
+        }
+        function alerta10(){
+            alert("usted a realizado un retiro de S/.200 con Exito");
+        }
+        function alerta11(){
+            alert("Usted a realizado un retiro de S/.500 con Exito");
+        }
+        function alerta12(){
+            alert("Usted a realizado un retiro de S/.1000 con Exito");
+        }
+        function alerta13(){
+            alert("Usted a realizado un retiro de S/.5000 con Exito");
+        }
+
+        var radio = prompt("Usted tiene a favor S/.10000: ");
+        var area;
+            area = Math.pow(radio,2)*Math.PI;
+            document.getElementById("datos").innerHTML="<h1>El área del círculo es: "+area+"</h1>";
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

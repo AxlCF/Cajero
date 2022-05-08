@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://img.freepik.com/vector-gratis/atm-cajero-automatico_160167-1.jpg">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Cajero automatico</title>
+</head>
+
+<body>
+
+    <body class="container">
+
+    <div class="c2"
+
+    <center>
+        <h2 class ="text2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSeleccione el Monto </h2>
+    </center>
+    <img class="img0" src="img/Trabajo del cajero.png">
+    <button class="button1" onclick="alerta1()">S/.50</button> </div>
+    <button class="button2" onclick="alerta2()">S/.100</button> </div>
+    <button class="button3" onclick="alerta3()">S/.200</button> </div>
+    <button class="button4" onclick="alerta4()">S/.500</button> </div>
+    <button class="button5" onclick="alerta5()">S/.1000</button> </div>
+    <button class="button6" onclick="alerta6()">S/.5000</button> </div>
+    
+
+    <form action="MENU.html" method="get ">
+    <button class=" button7 ">Regresar</button>
+    </form>
+
+
+
+
+    <script>
+        function alerta1(){ 
+            alert("Usted a realizado el deposito de S/.50 con Exito");
+        }
+        function alerta2(){
+            alert("Usted a realizado el deposito de S/.100 con Exito");
+        }
+        function alerta3(){
+            alert("usted a realizado el deposito de S/.200 con Exito");
+        }
+        function alerta4(){
+            alert("Usted a realizado el deposito de S/.500 con Exito");
+        }
+        function alerta5(){
+            alert("Usted a realizado el deposito de S/.1000 con Exito");
+        }
+        function alerta6(){
+            alert("Usted a realizado el deposito de S/.5000 con Exito");
+        }
+
+        var radio = prompt("Ingrese el numero de cuenta al que desea depositar: ");
+        var area;
+            area = Math.pow(radio,2)*Math.PI;
+            document.getElementById("datos").innerHTML="<h1>El área del círculo es: "+area+"</h1>";
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
